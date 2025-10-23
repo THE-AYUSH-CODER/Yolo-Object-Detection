@@ -125,7 +125,7 @@ Press Q to quit.
 
 ---
 
-# ⚡ Optional Performance Tips
+⚡ Optional Performance Tips
 
 | **Setting**             | **Change**                              | **Effect**             |
 |-------------------------|------------------------------------------|------------------------|
