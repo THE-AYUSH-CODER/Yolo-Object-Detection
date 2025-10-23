@@ -125,14 +125,14 @@ Press Q to quit.
 
 ---
 
-⚡ Optional Performance Tips
+# ⚡ Optional Performance Tips
 
-Setting	Change	Effect
-
-Lower resolution	(320, 240) instead of (640, 480)	+30–50% FPS
-Hide preview window	comment out cv2.imshow()	save CPU for TTS
-Model choice	yolov5n or yolov5s	smaller = faster
-Delay between speech	change > 3 to > 5	less CPU usage
+| **Setting**             | **Change**                              | **Effect**             |
+|-------------------------|------------------------------------------|------------------------|
+| Lower resolution        | `(320, 240)` instead of `(640, 480)`     | +30–50% FPS            |
+| Hide preview window     | Comment out `cv2.imshow()`               | Save CPU for TTS       |
+| Model choice            | Use `yolov5n` or `yolov5s`               | Smaller = faster       |
+| Delay between speech    | Change `> 3` to `> 5`                    | Less CPU usage         |
 
 
 
