@@ -8,7 +8,7 @@ Let’s go over why this happens and then I’ll show you how to make your YOLO 
 
 ---
 
-🧩 WHY your PC code doesn’t show the camera on Pi OS Bookworm
+`🧩 WHY your PC code doesn’t show the camera on Pi OS Bookworm`
 
 Raspberry Pi OS Bookworm replaced the old “legacy camera stack” (which worked with cv2.VideoCapture(0)) with a new libcamera-based system.
 
