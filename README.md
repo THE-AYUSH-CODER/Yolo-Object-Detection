@@ -8,7 +8,7 @@ Let’s go over why this happens and then I’ll show you how to make your YOLO 
 
 ---
 
-##🧩 WHY your PC code doesn’t show the camera on Pi OS Bookworm
+🧩 WHY your PC code doesn’t show the camera on Pi OS Bookworm
 
 Raspberry Pi OS Bookworm replaced the old “legacy camera stack” (which worked with cv2.VideoCapture(0)) with a new libcamera-based system.
 
@@ -22,14 +22,14 @@ Raspberry Pi OS Bookworm replaced the old “legacy camera stack” (which worke
 
 ---
 
-##✅ FIX: YOLOv5 + Picamera2 + pyttsx3 (Bookworm-compatible code)
+✅ FIX: YOLOv5 + Picamera2 + pyttsx3 (Bookworm-compatible code)
 
 Here’s how to update your working Linux code to run on Raspberry Pi OS Bookworm, using Picamera2 to get frames instead of OpenCV capture.
 
 
 ---
 
-##🧰 Step 1 — Make sure everything is installed
+🧰 Step 1 — Make sure everything is installed
 
 Run:
 ```
@@ -40,7 +40,7 @@ pip install torch torchvision torchaudio pyttsx3 ultralytics --break-system-pack
 
 ---
 
-##💻 Step 2 — Create the new Python file
+💻 Step 2 — Create the new Python file
 
 Create:
 ```
@@ -109,11 +109,11 @@ print("Detection stopped.")
 
 ---
 
-##▶️ Step 3 — Run it
+▶️ Step 3 — Run it
 ```
 python3 object_voice_detect_picam2.py
 ```
-##✅ You should now see:
+✅ You should now see:
 
 - A live preview window with YOLO labels
 
@@ -125,7 +125,7 @@ Press Q to quit.
 
 ---
 
-##⚡ Optional Performance Tips
+⚡ Optional Performance Tips
 
 Setting	Change	Effect
 
@@ -138,7 +138,7 @@ Delay between speech	change > 3 to > 5	less CPU usage
 
 ---
 
-##🧠 Summary
+🧠 Summary
 
 Feature	OpenCV-only code	Bookworm fixed (Picamera2)
 
