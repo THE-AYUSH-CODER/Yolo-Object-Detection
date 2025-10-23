@@ -138,14 +138,14 @@ Press Q to quit.
 
 ---
 
-🧠 Summary
+✅ Compatibility Comparison
 
-Feature	OpenCV-only code	Bookworm fixed (Picamera2)
-
-Works with USB camera	✅	✅
-Works with Pi Camera Module	❌	✅
-Compatible with Bookworm	❌	✅
-Uses new libcamera backend	❌	✅
+| **Feature**                     | **OpenCV-only code** | **Bookworm fixed (Picamera2)** |
+|---------------------------------|----------------------|---------------------------------|
+| Works with USB camera           | ✓                    | ✓                               |
+| Works with Pi Camera Module     | ✗                    | ✓                               |
+| Compatible with Bookworm        | ✗                    | ✓                               |
+| Uses new libcamera backend      | ✗                    | ✓                               |
 
 
 
